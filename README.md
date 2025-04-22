@@ -8,28 +8,6 @@ POE
 
 
 
-Table of Contents:
-
-1.Organisation Overview:   ………………………………………………………………………………….  [2]
-•	Name:[Organization Name]
-•	Brief history of the organization
-•	Vision and Mission statement
-•	Target Audience
-2.Website Goals & Objectives…………………………………………………………………………….[2]
-•	Specific goals for the website
-•	Key performance indicators(KPI’s)
-3.Proposed Features & Functionality……………………………………………………………………[2]
-5.Design & user experience………………………………………………………………………………..[2]
-•	Overall design aesthetic & branding
-•	Color Scheme
-•	Typography
-•	Layout & design
-•	User experience considerations
-6.Tecnical Requirements……………………………………………………………………………………[3]
-7.Timeline & Milestones…………………………………………………………………………………….[3]
-8.Budget………………………………………………………………………………………………………….[3]
-9.Reference……………………………………………………………………………………………………...[
-
 
 1.Organisation Overview
 •	Name:Kasi Bistro
