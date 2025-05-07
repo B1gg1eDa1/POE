@@ -3,32 +3,201 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width,initial-scale=1.0">
 <title>Home</title>
-    <header><h1>Kasi Bistro-Home page.</h1></header>  
-        <a href="index.html" target="_blank">Home</a>
-        <a href="contact.html" target="_blank">Contact Us</a>
-        <a href="aboutus.html" target="_blank">About Us</a>
-        <a href="products.html" target="_blank">Menu</a>
-        <a href="enquiry.html" target="_blank">Enquiries</a><br></header>
- 
-    <img src="images/logokb.PNG">
 
-    </head>
-    <body>
-        <b></b>
-<br><br>
-        At Kasi Bistro, we bring the heart and soul of township flavors to your plate with a modern twist. <br>Established in 2024, our bistro is a vibrant space where good food meets
-         great company.
-         Whether you’re craving a nostalgic taste of home or eager to explore the bold and rich flavors of Kasi cuisine, we’ve got something special just for you.<br>
+       <div class="navbar">
+        <div class="links">
+        <button><a href="index.html">Home</a></button>
+        <button><a href="contact.html">Contact Us</a></button>
+        <button><a href="aboutus.html">About Us</a></button>
+        <button><a href="products.html">Menu</a></button>
+        <button><a href="enquiry.html">Bookings</a></button>
+       </div>
+
+       
+    <div class="logo"><img src="images/kasibistro.png" style="height: 75px;padding-left: 8px;"></div></div>
+
+    
+       
+
+
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body {
+              margin: 0;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              font-size: large;
+            }
         
-        Our menu is a carefully crafted fusion of traditional township favorites and contemporary culinary creativity. 
-        From sizzling shisanyama and hearty pap to gourmet kota and flavorful stews, every dish is made with fresh ingredients and a whole lot of love. We believe in celebrating culture through food, offering a warm, welcoming atmosphere where everyone feels at home.
-        <br>
-        Whether you’re grabbing a quick bite, enjoying a relaxed meal with friends, or looking for the perfect spot for a weekend hangout, 
-        Kasi Bistro is your go-to destination.<br> Join us for an unforgettable dining experience filled with authentic flavors, vibrant energy, and top-notch hospitality.
-        <br>
-        Come taste the culture. Come feel the vibe. Welcome to Kasi Bistro!Home of good food! 
-        <br><br>
-        <b>Why Choose Kasi Bistro?</b>
+            footer {
+              background-color: #1b1b1b;
+              color: #fff;
+              padding: 50px 20px;
+            }
+        
+            .footer-container {
+              max-width: 1200px;
+              margin: auto;
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-between;
+            }
+        
+            .footer-section {
+              flex: 1 1 250px;
+              margin: 20px;
+            }
+        
+            .footer-section h3 {
+              color: #f0a500; /* Kasi gold */
+              margin-bottom: 15px;
+              font-size: 20px;
+            }
+        
+            .footer-section p,
+            .footer-section a {
+              color: #ccc;
+              text-decoration: none;
+              transition: color 0.3s ease;
+            }
+        
+            .footer-section a:hover {
+              color: #f0a500;
+            }
+        
+            .footer-section ul {
+              list-style: none;
+              padding: 0;
+            }
+        
+            .footer-section ul li {
+              margin-bottom: 10px;
+            }
+        
+            .social-icons a {
+              font-size: 20px;
+              margin-right: 15px;
+              display: inline-block;
+            }
+        
+            @media (max-width: 768px) {
+              .footer-container {
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+              }
+        
+              .footer-section {
+                margin: 20px 0;
+              }
+            }
+
+            .image-p1{
+                height: 580px;
+                width: 340px;
+                float: left;
+                padding-left: 130px;
+                padding-right: 40px;
+                border-radius: 10px;
+            }
+            
+            .content-p1{
+            
+                padding-right: 30px;
+                background-color:rgb(65, 59, 59) ;
+                height: 570px;
+                border-radius: 20px;
+                padding: 20;
+                color:#fff;
+            
+            }
+            h1{
+                padding-top: 20;
+                padding-left: 150;
+                text-decoration-line: underline;
+            }
+            .slogan-heading{
+                background-color: rgb(65, 59, 59);
+                height: 300px;
+                
+                color: #f0a500;}
+
+            .slogan-heading p{
+                  padding-left: 150;
+                  font-size: larger;
+                }
+                
+             .slogan-heading button{
+              padding-right: 50px;
+              background-color: #1b1b1b;
+              
+              padding: 20px;
+              
+             }
+             .buttons{
+              padding-left: 150px;
+              padding-right: 6px;
+              color: #aa9d9d;
+             }
+                
+             .buttons :hover{
+              transform: translateY(-3px);
+              color: #aa9d9d;
+             }
+               
+             .content-p2{
+              text-align: center;
+              background-color:rgb(65, 59, 59) ;
+                height: 450px;
+                border-radius: 20px;
+              
+                color:#fff;
+              
+             }
+            
+          </style>
+       
+    </head>
+    <body >
+        <div class="slogan-heading" style="background-image: url(images/table.jpg); background-size: cover; background-position: center;">
+     
+       <h1>Kasi Bistro</h1>
+       <p>Elevated Taste, Rooted in Home.</p>
+       <div class="buttons"><button><a href="enquiry.html">Make Reservation</a></button>
+        <button><a href="products.html">View Menu</a></button></div>
+       
+        </div>
+    
+<br><br>
+       <div class="content-p1" >
+        <img class="image-p1" src="images/fire-pan.jpg" alt=""> 
+        <h1> Welcome to Kasi Bistro</h1>
+       <p>At Kasi Bistro, we bring the heartbeat of the township to your plate.Founded in 2024 <br> and proudly based in Polokwane,
+        we’re more than just a restaurant<br>
+         — we’re a celebration of flavour, culture, and community.<br>
+         We fuse classic high-end cuisine with a proudly local twist, <br>
+        creating bold dishes crafted for the South African palate.
+
+        Our menu is inspired by the streets, traditions, and people who make South Africa beautiful. <br> 
+            Whether you're joining us for a quick lunch, a chilled evening with friends, or a festive celebration,<br>
+             you’ll find a vibe that feels like home. Local ingredients, bold spices, and authentic recipes come ,<br>
+             together to create unforgettable meals that tell a story.
+        
+        But Kasi Bistro isn’t just about food — it’s about connection. We’re a space where good music plays, <br>
+            laughter echoes, and memories are made. Our team is here to make you feel welcome, whether you're a ,<br>
+            first-time visitor or part of the Kasi Bistro family.
+        
+        Explore our menu, follow us on socials, or book your next event with us. We also offer delivery, <br>
+            catering, and weekly specials that keep things fresh and exciting.
+        
+        So come through — relax, eat well, and experience kasi culture on a plate. </p>
+        
+       <b style="color: #f0a500; ;">Kasi Bistro – Elevated Taste, Rooted in Home.</b> 
+       </div>
+       
+    </div>
+       <br>
+       <div class="content-p2">
+        <h1>Why Choose Kasi Bistro?</h1>
 <br><br>
 At Kasi Bistro, we believe that great food is more than just a meal—it’s an experience.<br>Our bistro is built on a passion for culinary excellence and a commitment to delivering 
 top-tier flavors with every dish we serve.<br> As the owner and founder Thato Mailula, I bring my expertise as a qualified chef to every plate, ensuring that each meal is crafted with precision, 
@@ -36,15 +205,60 @@ creativity, and a deep love for food.
 <br><br>
 What sets Kasi Bistro apart is our unwavering dedication to quality and customer satisfaction.<br> 
 We source only the finest ingredients, blending authentic flavors with a modern twist to create dishes that delight the senses.
- <br>Whether you’re stopping by for a quick bite or a full dining experience, we aim to provide an atmosphere that is warm, welcoming, 
- and reflective of our rich culinary heritage.
+<br>Whether you’re stopping by for a quick bite or a full dining experience, we aim to provide an atmosphere that is warm, welcoming, 
+and reflective of our rich culinary heritage.
 <br><br>
 At our core, we value the trust our customers place in us, and we work tirelessly to exceed expectations. 
 <br>Every meal we prepare is a testament to our passion for great food and our desire to make each dining experience truly special. 
-<br>When you choose Kasi Bistro, you’re not just choosing a meal—you’re choosing quality, authenticity, and ultimate satisfaction.
+<br>When you choose Kasi Bistro, you’re not just choosing a meal—you’re choosing quality, authenticity, and ultimate satisfaction.</div>
     </body>
-    <br><br><br>
-    <footer>  <a href="index.html" target="_blank">Home</a>
-        <a href="contact.html" target="_blank">Contact Us</a>
-        <a href="aboutus.html" target="_blank">About Us</a></a></footer>
+    <br>
+    
+      <footer>
+        <div class="footer-container">
+    
+      
+          <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>Email: <a href="mailto:info@kasibistro.co.za">info@kasibistro.co.za</a></p>
+            <p>Phone: <a href="tel:+27123456789">+27 12 345 6789</a></p>
+            <p>
+              WhatsApp: 
+              <a href="https://wa.me/27123456789" target="_blank">
+                <i class="fab fa-whatsapp"></i> Chat with us
+              </a>
+            </p>
+            <p>Address: 123 Kasi Street, Polokwane</p>
+          </div>
+    
+        
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#about">About Kasi Bistro</a></li>
+              <li><a href="#menu">Our Menu</a></li>
+              <li><a href="#events">Events</a></li>
+              <li><a href="#contact">Contact & Bookings</a></li>
+            </ul>
+          </div>
+    
+        
+          <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+              <a href="https://facebook.com/kasibistro" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://instagram.com/kasibistro" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://tiktok.com/@kasibistro" target="_blank"><i class="fab fa-tiktok"></i></a>
+              <a href="https://wa.me/27123456789" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+    
+        </div>
+      </footer>
+    
+    </body>
+    </html>
+    
+
 </html>
