@@ -1,3 +1,169 @@
+.image-p1 {
+    height: auto;
+    width: 100%;
+    max-width: 200px;
+    float: left;
+    margin: 0 auto;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.content-p1 {
+    padding: 20px;
+    background-color: rgb(65, 59, 59);
+    min-height: 570px;
+   
+    border-radius: 20px;
+    color: #fff;
+    max-width: 100%;
+width: auto;
+}
+
+h1 {
+    padding-top: 20px;
+    padding-left: 150px;
+    text-decoration-line: underline;
+}
+
+.slogan-heading {
+    background-color: rgb(65, 59, 59);
+    min-height: 300px;
+    color: #f0a500;
+    padding: 20px;
+}
+
+.slogan-heading p {
+    padding-left: 150px;
+    font-size: larger;
+}
+
+.slogan-heading button {
+    padding: 20px 50px;
+    background-color: #1b1b1b;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.buttons {
+    padding-left: 150px;
+    padding-right: 6px;
+    color: #aa9d9d;
+}
+
+.buttons :hover {
+    transform: translateY(-3px);
+    color: #aa9d9d;
+}
+
+.content-p2 {
+    text-align: center;
+    background-color: rgb(65, 59, 59);
+    min-height: 450px;
+    border-radius: 20px;
+    color: #fff;
+    padding: 20px;
+    max-width: 100%;
+width: auto;
+}
+.text-content {
+    flex: 1;
+    min-width: 200px;
+  }
+  p {
+    word-wrap: break-word;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+
+@media (max-width: 768px) {
+    .image-p1 {
+        flex: 0 0 auto;
+        max-width: 200px;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+
+    h1, .slogan-heading p, .buttons {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .slogan-heading {
+        text-align: center;
+    }
+
+    .slogan-heading p {
+        padding-left: 0;
+        font-size: 1.1rem;
+    }
+
+    .buttons {
+        text-align: center;
+        padding-left: 0;
+
+        .p {
+            word-wrap: break-word;
+            line-height: 1.6;
+            font-size: 1rem;
+          }
+
+          p {
+            word-wrap: break-word;
+            line-height: 1.6;
+            font-size: 1rem;
+          }
+          
+          .content-p1 {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            background-color: rgb(65, 59, 59);
+            border-radius: 20px;
+            color: #fff;
+            padding: 20px;
+            max-width: 100%;
+width: auto;
+    }
+    .text-content {
+        flex: 1;
+        min-width: 200px;
+      }
+        }
+        * {
+            box-sizing: border-box;
+          }
+
+}
+
+@media (max-width: 480px) {
+    h1 {
+        padding-left: 10px;
+        font-size: 1.5rem;
+    }
+
+    .slogan-heading p {
+        font-size: 1rem;
+    }
+
+    .slogan-heading button {
+        width: 100%;
+        padding: 15px;
+    }
+    p {
+        word-wrap: break-word;
+        line-height: 1.6;
+        font-size: 1rem;
+      }
+      .text-content {
+        flex: 1;
+        min-width: 200px;
+      }
+      * {
+        box-sizing: border-box;
+      }
+}
 
 
 
@@ -38,7 +204,66 @@ button a{
 }
 
 
+.footer-section {
+    margin: 20px 0;
+  }
 
+  body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+}
+
+footer {
+  background-color: #1b1b1b;
+  color: #fff;
+  padding: 50px 20px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+  margin: 20px;
+}
+
+.footer-section h3 {
+  color: #f0a500; 
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.footer-section p,
+.footer-section a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: #f0a500;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  font-size: 20px;
+  margin-right: 15px;
+  display: inline-block;
+}
 
 
 
