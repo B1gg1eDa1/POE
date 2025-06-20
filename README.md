@@ -59,3 +59,10 @@ The languages we going to use to create and maintain the website are:
 9.References:
 OpenAI, 2025. ChatGPT [online]. Available at: https://chat.openai.com/ [Accessed 7 April 2025].
 
+Part 3:
+I added Java Script fuctions/elements to the website.This makes the website more interactive and dynamic.
+I aslo added a form to the contact page ,its function is to collect basic information of the customer/client.What
+Here are the additional references:
+W3Schools. (2024). HTML/CSS/JavaScript Tutorials. [Online] Available at: https://www.w3schools.com/ [Accessed 20 June 2025].
+World Wide Web Consortium. (2023). Web Standards. W3C. [Online] Available at: https://www.w3.org/standards/ [Accessed 20 June 2025].
+DeepSeek Chat. (2024). Technical guidance on GitHub repository management and website optimization. [Personal communication, 20 June 2024].
