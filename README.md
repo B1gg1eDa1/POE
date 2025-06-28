@@ -69,7 +69,6 @@ DeepSeek Chat. (2024). Technical guidance on GitHub repository management and we
 
 # Kasi Bistro Website SEO Optimization - Changelog
 
-## [1.0.0] - 2023-11-15
 ### SEO Enhancements (All Pages)
 - Added proper HTML5 doctype declaration
 - Implemented semantic HTML structure
