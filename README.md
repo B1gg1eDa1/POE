@@ -66,3 +66,66 @@ Here are the additional references:
 W3Schools. (2024). HTML/CSS/JavaScript Tutorials. [Online] Available at: https://www.w3schools.com/ [Accessed 20 June 2025].
 World Wide Web Consortium. (2023). Web Standards. W3C. [Online] Available at: https://www.w3.org/standards/ [Accessed 20 June 2025].
 DeepSeek Chat. (2024). Technical guidance on GitHub repository management and website optimization. [Personal communication, 20 June 2024].
+
+# Kasi Bistro Website SEO Optimization - Changelog
+
+## [1.0.0] - 2023-11-15
+### SEO Enhancements (All Pages)
+- Added proper HTML5 doctype declaration
+- Implemented semantic HTML structure
+- Added comprehensive meta tags (description, keywords, author)
+- Included Open Graph and Twitter Card meta tags
+- Added canonical URLs
+- Implemented favicon
+- Improved title tags for better SEO
+- Added alt text to all images
+- Enhanced link attributes (rel="noopener noreferrer")
+- Added aria-labels for accessibility
+- Structured footer links to point to actual pages
+- Made phone numbers clickable with tel:
+- Made emails clickable with mailto:
+
+### Page-Specific Improvements
+
+#### Home Page (index.html)
+- Added JSON-LD structured data for local business
+- Improved heading hierarchy
+- Enhanced content structure
+
+#### About Us Page (aboutus.html)
+- Added timeline schema markup
+- Improved content organization
+- Enhanced value proposition section
+
+#### Menu Page (products.html)
+- Added menu schema markup (JSON-LD)
+- Improved heading hierarchy (h3 → h2 for menu items)
+- Enhanced product descriptions
+
+#### Reservations Page (enquiry.html)
+- Added booking form validation
+- Improved date/time picker functionality
+- Enhanced error handling
+
+#### Contact Page (contact.html)
+- Added contact form validation
+- Improved Google Maps integration
+- Enhanced social media links
+
+### Technical Improvements
+- Moved all navigation elements from `<head>` to `<body>`
+- Standardized footer across all pages
+- Improved mobile responsiveness
+- Added smooth scrolling behavior
+- Optimized form submissions
+
+### Preservation of Original Design
+- Maintained all original CSS styling
+- Preserved all animations and interactive elements
+- Kept existing color scheme and layout
+- Retained all visual effects (hover states, transitions)
+
+### Initial SEO Foundation
+- Basic meta tags implementation
+- Initial accessibility improvements
+- Basic content structure enhancements
