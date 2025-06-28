@@ -1,320 +1,337 @@
-<html>
-    <head>
-        <title>https://www.kasibistro.co.za/reservations/</title>
-        
-        <div class="navbar">
-            <div class="links">
-                <button><a href="index.html">Home</a></button>
-                <button><a href="contact.html">Contact Us</a></button>
-                <button><a href="aboutus.html">About Us</a></button>
-                <button><a href="products.html">Menu</a></button>
-                <button><a href="enquiry.html">Bookings</a></button>
-            </div>
-            <div class="logo"><img src="images/kasibistro.png" style="height: 75px;padding-left: 8px;"a href="index.html"></div>
-        </div>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-        <link rel="stylesheet" href="style.css">
-        <style>
-            body {
-                margin: 0;
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                font-size: large;
-            }
-        
-            footer {
-                background-color: #1b1b1b;
-                color: #fff;
-                padding: 50px 20px;
-            }
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Book a table at Kasi Bistro - Polokwane's finest township-inspired restaurant. Reserve online for lunch, dinner or special events.">
+    <meta name="keywords" content="Kasi Bistro reservations, book table Polokwane, restaurant booking, dinner reservation, Kasi Bistro online booking">
+    <meta name="author" content="Kasi Bistro">
+    <meta property="og:title" content="Reservations at Kasi Bistro | Book Your Table Online">
+    <meta property="og:description" content="Secure your table at Kasi Bistro - the best township-inspired dining in Polokwane. Book online for any occasion.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.kasibistro.co.za/reservations/">
+    <meta property="og:image" content="https://www.kasibistro.co.za/images/kasibistro.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://www.kasibistro.co.za/reservations/">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    
+    <title>Reservations at Kasi Bistro | Book Your Table Online</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: large;
+        }
+    
+        footer {
+            background-color: #1b1b1b;
+            color: #fff;
+            padding: 50px 20px;
+        }
+    
+        .footer-container {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    
+        .footer-section {
+            flex: 1 1 250px;
+            margin: 20px;
+        }
+    
+        .footer-section h3 {
+            color: #f0a500;
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+    
+        .footer-section p,
+        .footer-section a {
+            color: #ccc;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+    
+        .footer-section a:hover {
+            color: #f0a500;
+        }
+    
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+        }
+    
+        .footer-section ul li {
+            margin-bottom: 10px;
+        }
+    
+        .social-icons a {
+            font-size: 20px;
+            margin-right: 15px;
+            display: inline-block;
+        }
+    
+        @media (max-width: 768px) {
             .footer-container {
-                max-width: 1200px;
-                margin: auto;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-            }
-        
-            .footer-section {
-                flex: 1 1 250px;
-                margin: 20px;
-            }
-        
-            .footer-section h3 {
-                color: #f0a500; /* Kasi gold */
-                margin-bottom: 15px;
-                font-size: 20px;
-            }
-        
-            .footer-section p,
-            .footer-section a {
-                color: #ccc;
-                text-decoration: none;
-                transition: color 0.3s ease;
-            }
-        
-            .footer-section a:hover {
-                color: #f0a500;
-            }
-        
-            .footer-section ul {
-                list-style: none;
-                padding: 0;
-            }
-        
-            .footer-section ul li {
-                margin-bottom: 10px;
-            }
-        
-            .social-icons a {
-                font-size: 20px;
-                margin-right: 15px;
-                display: inline-block;
-            }
-        
-            @media (max-width: 768px) {
-                .footer-container {
-                    flex-direction: column;
-                    text-align: center;
-                    align-items: center;
-                }
-        
-                .footer-section {
-                    margin: 20px 0;
-                }
-            }
-            body{
-                text-align: center;
-            }
-            input{
-                padding-right: 200px;
-            }
-            .container {
-                max-width: 700px;
-                margin: 50px auto;
-                padding: 40px;
-                background: #fff;
-                border-radius: 12px;
-                box-shadow: 0 0 20px rgba(0,0,0,0.1);
-            }
-
-            h2 {
-                text-align: center;
-                color: #333;
-                margin-bottom: 30px;
-            }
-
-            form {
-                display: flex;
                 flex-direction: column;
+                text-align: center;
+                align-items: center;
             }
-
-            label {
-                margin-bottom: 8px;
-                font-weight: bold;
-                color: #555;
-                text-align: left;
-            }
-
-            input, select, textarea {
-                padding: 10px;
-                margin-bottom: 5px;
-                border: 1px solid #ccc;
-                border-radius: 6px;
-                font-size: 15px;
-            }
-
-            button {
-                background-color: #ffffff;
-                color:  #f0a500;
-                padding: 12px;
-                font-size: 16px;
-                border: none;
-                border-radius: 6px;
-                cursor: pointer;
-            }
-
-            button:hover {
-                background-color: #555;
-            }
-
-            .error {
-                color: red;
-                font-size: 14px;
-                margin-bottom: 15px;
-                text-align: left;
-                display: none;
-            }
-
-            .success-message {
-                color: green;
-                font-weight: bold;
+    
+            .footer-section {
                 margin: 20px 0;
-                display: none;
             }
+        }
+        body{
+            text-align: center;
+        }
+        input{
+            padding-right: 200px;
+        }
+        .container {
+            max-width: 700px;
+            margin: 50px auto;
+            padding: 40px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
 
-            @media (max-width: 600px) {
-                .container {
-                    margin: 20px;
-                    padding: 20px;
-                }
-                input {
-                    padding-right: 10px;
-                }
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #555;
+            text-align: left;
+        }
+
+        input, select, textarea {
+            padding: 10px;
+            margin-bottom: 5px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+
+        button {
+            background-color: #ffffff;
+            color:  #f0a500;
+            padding: 12px;
+            font-size: 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        .error {
+            color: red;
+            font-size: 14px;
+            margin-bottom: 15px;
+            text-align: left;
+            display: none;
+        }
+
+        .success-message {
+            color: green;
+            font-weight: bold;
+            margin: 20px 0;
+            display: none;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px;
+                padding: 20px;
             }
-        </style>
-        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    </head>
-    <body> 
-        <h1>Book A Table At Kasi Bistro.</h1> 
-        <br>
-        <div class="container">
-            <form id="bookingForm" action="#" method="post">
-                <label for="name">Full Name</label>
-                <input type="text" id="name" name="name" required />
-                <div id="nameError" class="error"></div>
-        
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email" required />
-                <div id="emailError" class="error"></div>
-        
-                <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" name="phone" required />
-                <div id="phoneError" class="error"></div>
-                
-                <label for="guests">Number of Guests</label>
-                <select id="guests" name="guests" required>
-                    <option value="">Select</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3-4">3–4</option>
-                    <option value="5-6">5–6</option>
-                    <option value="7+">7+</option>
-                </select>
-                <div id="guestsError" class="error"></div>
-          
-                <label for="date">Booking Date</label>
-                <input type="date" id="date" name="date" required />
-                <div id="dateError" class="error"></div>
-          
-                <label for="time">Booking Time</label>
-                <input type="time" id="time" name="time" required />
-                <div id="timeError" class="error"></div>
-          
-                <label for="message">Special Requests (Optional)</label>
-                <textarea id="message" name="message" rows="4" placeholder="Allergies, birthdays, etc."></textarea>
-                
-                <button type="submit">Submit Booking</button>
-                <div id="successMessage" class="success-message"></div>
-            </form>
+            input {
+                padding-right: 10px;
+            }
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+    <!-- Navbar moved to body (was incorrectly in head) -->
+    <div class="navbar">
+        <div class="links">
+            <button><a href="index.html">Home</a></button>
+            <button><a href="contact.html">Contact Us</a></button>
+            <button><a href="aboutus.html">About Us</a></button>
+            <button><a href="products.html">Menu</a></button>
+            <button><a href="enquiry.html">Bookings</a></button>
         </div>
+        <div class="logo"><img src="images/kasibistro.png" alt="Kasi Bistro Logo" style="height: 75px;padding-left: 8px;"></div>
+    </div>
 
-        <script>
-            document.getElementById('bookingForm').addEventListener('submit', function(event) {
-                event.preventDefault();
-                
-                
-                document.querySelectorAll('.error').forEach(el => {
-                    el.style.display = 'none';
-                    el.textContent = '';
-                });
-                document.getElementById('successMessage').style.display = 'none';
-                
-              
-                const name = document.getElementById('name').value.trim();
-                const email = document.getElementById('email').value.trim();
-                const phone = document.getElementById('phone').value.trim();
-                const guests = document.getElementById('guests').value;
-                const date = document.getElementById('date').value;
-                const time = document.getElementById('time').value;
-                const message = document.getElementById('message').value.trim();
-                
-                let isValid = true;
-                
-              
-                if (name === '') {
-                    showError('nameError', 'Please enter your full name');
-                    isValid = false;
-                } else if (name.length < 3) {
-                    showError('nameError', 'Name must be at least 3 characters');
-                    isValid = false;
-                }
-                
+    <h1>Book A Table At Kasi Bistro</h1> 
+    <br>
+    <div class="container">
+        <form id="bookingForm" action="#" method="post">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required />
+            <div id="nameError" class="error"></div>
+    
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required />
+            <div id="emailError" class="error"></div>
+    
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required />
+            <div id="phoneError" class="error"></div>
             
-                if (email === '') {
-                    showError('emailError', 'Please enter your email address');
-                    isValid = false;
-                } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-                    showError('emailError', 'Please enter a valid email address');
+            <label for="guests">Number of Guests</label>
+            <select id="guests" name="guests" required>
+                <option value="">Select</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3-4">3–4</option>
+                <option value="5-6">5–6</option>
+                <option value="7+">7+</option>
+            </select>
+            <div id="guestsError" class="error"></div>
+      
+            <label for="date">Booking Date</label>
+            <input type="date" id="date" name="date" required />
+            <div id="dateError" class="error"></div>
+      
+            <label for="time">Booking Time</label>
+            <input type="time" id="time" name="time" required />
+            <div id="timeError" class="error"></div>
+      
+            <label for="message">Special Requests (Optional)</label>
+            <textarea id="message" name="message" rows="4" placeholder="Allergies, birthdays, etc."></textarea>
+            
+            <button type="submit">Submit Booking</button>
+            <div id="successMessage" class="success-message"></div>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('bookingForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            
+            document.querySelectorAll('.error').forEach(el => {
+                el.style.display = 'none';
+                el.textContent = '';
+            });
+            document.getElementById('successMessage').style.display = 'none';
+            
+          
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const phone = document.getElementById('phone').value.trim();
+            const guests = document.getElementById('guests').value;
+            const date = document.getElementById('date').value;
+            const time = document.getElementById('time').value;
+            const message = document.getElementById('message').value.trim();
+            
+            let isValid = true;
+            
+          
+            if (name === '') {
+                showError('nameError', 'Please enter your full name');
+                isValid = false;
+            } else if (name.length < 3) {
+                showError('nameError', 'Name must be at least 3 characters');
+                isValid = false;
+            }
+            
+        
+            if (email === '') {
+                showError('emailError', 'Please enter your email address');
+                isValid = false;
+            } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                showError('emailError', 'Please enter a valid email address');
+                isValid = false;
+            }
+            
+            
+            if (phone === '') {
+                showError('phoneError', 'Please enter your phone number');
+                isValid = false;
+            } else if (!/^(\+27|0)[6-8][0-9]{8}$/.test(phone)) {
+                showError('phoneError', 'Please enter a valid South African phone number (e.g. 0712345678 or +27712345678)');
+                isValid = false;
+            }
+            
+         
+            if (guests === '') {
+                showError('guestsError', 'Please select number of guests');
+                isValid = false;
+            }
+            
+          
+            if (date === '') {
+                showError('dateError', 'Please select a booking date');
+                isValid = false;
+            } else {
+                const selectedDate = new Date(date);
+                const today = new Date();
+                today.setHours(0, 0, 0, 0);
+                
+                if (selectedDate < today) {
+                    showError('dateError', 'Booking date cannot be in the past');
                     isValid = false;
                 }
+            }
+            
+            
+            if (time === '') {
+                showError('timeError', 'Please select a booking time');
+                isValid = false;
+            } else {
+                const openingTime = 10; 
+                const closingTime = 22; 
+                const selectedHour = parseInt(time.split(':')[0]);
                 
-                
-                if (phone === '') {
-                    showError('phoneError', 'Please enter your phone number');
-                    isValid = false;
-                } else if (!/^(\+27|0)[6-8][0-9]{8}$/.test(phone)) {
-                    showError('phoneError', 'Please enter a valid South African phone number (e.g. 0712345678 or +27712345678)');
+                if (selectedHour < openingTime || selectedHour >= closingTime) {
+                    showError('timeError', `We're open from 10:00 AM to 10:00 PM`);
                     isValid = false;
                 }
+            }
+            
+           
+            if (isValid) {
+                document.getElementById('successMessage').textContent = 'Thank you for your booking! We will confirm your reservation shortly.';
+                document.getElementById('successMessage').style.display = 'block';
+                document.getElementById('bookingForm').reset();
                 
              
-                if (guests === '') {
-                    showError('guestsError', 'Please select number of guests');
-                    isValid = false;
-                }
-                
-              
-                if (date === '') {
-                    showError('dateError', 'Please select a booking date');
-                    isValid = false;
-                } else {
-                    const selectedDate = new Date(date);
-                    const today = new Date();
-                    today.setHours(0, 0, 0, 0);
-                    
-                    if (selectedDate < today) {
-                        showError('dateError', 'Booking date cannot be in the past');
-                        isValid = false;
-                    }
-                }
-                
-                
-                if (time === '') {
-                    showError('timeError', 'Please select a booking time');
-                    isValid = false;
-                } else {
-                    const openingTime = 10; 
-                    const closingTime = 22; 
-                    const selectedHour = parseInt(time.split(':')[0]);
-                    
-                    if (selectedHour < openingTime || selectedHour >= closingTime) {
-                        showError('timeError', `We're open from 10:00 AM to 10:00 PM`);
-                        isValid = false;
-                    }
-                }
-                
-               
-                if (isValid) {
-                    document.getElementById('successMessage').textContent = 'Thank you for your booking! We will confirm your reservation shortly.';
-                    document.getElementById('successMessage').style.display = 'block';
-                    document.getElementById('bookingForm').reset();
-                    
-                 
-                }
-                
-                function showError(elementId, message) {
-                    const errorElement = document.getElementById(elementId);
-                    errorElement.textContent = message;
-                    errorElement.style.display = 'block';
-                }
-            });
+            }
             
-            
-            document.getElementById('date').min = new Date().toISOString().split('T')[0];
-        </script>
-    </body>
-    <br><br><br>
+            function showError(elementId, message) {
+                const errorElement = document.getElementById(elementId);
+                errorElement.textContent = message;
+                errorElement.style.display = 'block';
+            }
+        });
+        
+        
+        document.getElementById('date').min = new Date().toISOString().split('T')[0];
+    </script>
+
     <footer>
         <div class="footer-container">
             <div class="footer-section">
@@ -323,7 +340,7 @@
                 <p>Phone: <a href="tel:+27123456789">+27 12 345 6789</a></p>
                 <p>
                     WhatsApp: 
-                    <a href="https://wa.me/27123456789" target="_blank">
+                    <a href="https://wa.me/27123456789" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-whatsapp"></i> Chat with us
                     </a>
                 </p>
@@ -333,30 +350,31 @@
             <div class="footer-section">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="#about">About Kasi Bistro</a></li>
-                    <li><a href="#menu">Our Menu</a></li>
-                    <li><a href="#events">Events</a></li>
-                    <li><a href="#contact">Contact & Bookings</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="products.html">Our Menu</a></li>
+                    <li><a href="enquiry.html">Bookings</a></li>
                 </ul>
             </div>
     
             <div class="footer-section">
               <h3>Follow Us</h3>
               <div class="social-icons">
-                <a href="https://facebook.com/kasibistro" target="_blank">
+                <a href="https://facebook.com/kasibistro" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                   <i class="fab fa-facebook-f"></i>
                 </a>
-                <a href="https://instagram.com/kasibistro" target="_blank">
+                <a href="https://instagram.com/kasibistro" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                   <i class="fab fa-instagram"></i>
                 </a>
-                <a href="https://tiktok.com/@kasibistro" target="_blank">
+                <a href="https://tiktok.com/@kasibistro" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
                   <i class="fab fa-tiktok"></i>
                 </a>
-                <a href="https://wa.me/27123456789" target="_blank">
+                <a href="https://wa.me/27123456789" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
                   <i class="fab fa-whatsapp"></i>
                 </a>
               </div>
             </div>
         </div>
     </footer>
+</body>
 </html>
